@@ -544,3 +544,24 @@ footer{
   }
 }
 
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .col-box,
+  .social-icons {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+  }
+
+  .col-left,
+  .col-right {
+    width: 100%;
+  }
+}
+
+
