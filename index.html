@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Derrick Chanzu | Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="logo"><span>Derrick</span></a>
+    <ul class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </ul>
+
+    <i class='bx bx-menu' id="menu"></i> 
+
+    <a href="#contact" class="btn">Contact Me</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <img src="IMAGES/derrick.jpg" alt="my photo">
+    <div class="info-box">
+      <h1><span>Hello, I'm Derrick</span></h1>
+      <h3><span>Java Developer</span></h3>
+      <p>
+        Building the backbone of modern applications as a Java Developer and Spring Boot Enthusiast.
+        I thrive on solving complex backend challenges and designing resilient systems.
+      </p>
+    </div>
+<div class="btn-box">
+  <a href="mailto:chanzuderrick@gmail.com?subject=Hire%20Request&body=Hi%20Derrick,%0AI'm%20interested%20in%20working%20with%20you." class="btn">Hire</a>
+  <a href="mailto:chanzuderrick@gmail.com?subject=Contact%20Request&body=Hi%20Derrick,%0AI'd%20like%20to%20connect%20regarding%20your%20services." class="btn">Contact Me</a>
+</div>
+
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-box">
+      <div class="about-info">
+        <h1><span>About Me</span></h1>
+        <p>
+          I'm a passionate Java Developer with a strong specialization in Spring Boot for building 
+          robust backend systems. My dual academic background in Mathematics and Computer Science gives 
+          me a unique analytical edge, enabling me to approach complex problems with a focus on logical
+          precision and efficient algorithm design. I thrive on creating scalable APIs, optimizing 
+          database interactions, and delivering high quality, maintainable code. 
+        </p>
+      </div>
+      <h2><span>Skills</span></h2>
+      <div class="skills">
+        <ul>
+          <li><span><i class='bx bx-chevron-right'></i> HTML</span></li>
+          <li><span><i class='bx bx-chevron-right'></i> CSS</span></li>
+          <li><span><i class='bx bx-chevron-right'></i> JavaScript</span></li>
+        </ul>
+
+        <ul>
+          <li><span><i class='bx bx-chevron-right'></i> PHP</span></li>
+          <li><span><i class='bx bx-chevron-right'></i> Java</span></li>
+          <li><span><i class='bx bx-chevron-right'></i> Spring Boot</span></li>
+          <li><span><i class='bx bx-chevron-right'></i> MySQL</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <img src="IMAGES/derrick.jpg" alt="my photo">
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h1 class="header"><span>Services</span></h1>
+    <div class="service-container">
+      <div class="box">
+        <h1><span>Core Java Application Development</span></h1>
+        <p>
+          Building standalone Java applications leveraging fundamental concepts like OOP
+          (classes, objects, inheritance, polymorphism, encapsulation), data structures
+          (Lists, Maps, Sets), algorithms, exception handling and multithreading. Projects
+          include calculator, tic tac toe game. 
+        </p>
+        <img src="IMAGES/code.jpg">
+      </div>
+
+      <div class="box">
+        <h1><span>RESTful API Development</span></h1>
+        <p>
+          Designing and implementing robust RESTful APIs using the Spring Boot framework
+          to provide data and functionality to client applications (front-end, mobile apps).
+          Projects include: Forum API, E-COMMERCE backend, Task-Management 
+        </p>
+        <img src="IMAGES/developer273.jpg">
+      </div>
+
+      <div class="box">
+        <h1><span>Version Control with Git and GitHub</span></h1>
+        <p>
+          Proficiently using Git for source code management, branching, merging and collaboration
+          on projects.
+        </p>
+        <img src="IMAGES/programming.jpg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact">
+  <h1 class="header"><span>Contact</span></h1>
+
+  <form action="https://formsubmit.co/chanzuderrick@gmail.com" method="POST">
+    <!-- Hidden configuration fields -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New message from your portfolio">
+    <input type="hidden" name="_template" value="table">
+
+    <div class="input-box">
+      <span>Fullname</span>
+      <input type="text" name="name" placeholder="Enter your full name:" required>
+    </div>
+
+    <div class="input-box">
+      <span>Email</span>
+      <input type="email" name="email" placeholder="Enter your email:" required>
+    </div>
+
+    <div class="input-box">
+      <span>Your Message</span>
+      <input type="text" name="message" placeholder="Enter your message:" required>
+    </div>
+
+    <div class="btn" onclick="document.querySelector('#contact form').submit()">Submit</div>
+
+  </form>
+</section>
+
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="col-left">
+      <div class="col-box">
+        <span><i class='bx bx-map'></i></span>
+        <span>Nairobi, Kenya</span>
+      </div>
+
+      <div class="col-box">
+        <span><i class='bx bx-phone-call'></i></span>
+        <span>0742804467</span>
+      </div>
+
+      <div class="col-box">
+        <span><i class='bx bx-envelope'></i></span>
+        <span>chanzuderrick@gmail.com</span>
+      </div>
+    </div>
+
+    <div class="col-right">
+      <span>About my Services</span>
+      <p>
+        Building reliable backend solutions with Java and Spring Boot.
+        Have a project in mind? Let's connect!
+      </p>
+
+      <div class="social-icons">
+        <span><i class="bx bxl-facebook"></i></span>
+        <span><i class="bx bxl-linkedin"></i></span>
+        <span><i class="bx bxl-github"></i></span>
+        <span><i class="bx bxl-instagram"></i></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
