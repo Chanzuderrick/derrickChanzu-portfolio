@@ -500,3 +500,47 @@ footer{
     font-size: 2em;
   }
 }
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  section,
+  footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  nav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .col-left,
+  .col-right {
+    text-align: left;
+    width: 100%;
+  }
+
+  .info-box h1 {
+    font-size: 2.5em;
+  }
+
+  .info-box h3 {
+    font-size: 1.2em;
+  }
+
+  .about-box h1 {
+    font-size: 2em;
+  }
+
+  .skills ul {
+    align-items: flex-start;
+  }
+
+  .input-box input {
+    width: 100%;
+  }
+}
+
